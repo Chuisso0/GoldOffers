@@ -11,7 +11,6 @@
 ### 👥 Grupo
 
 * Guilherme de Souza Chuisso
-* Rogério Dorcelino
 
 ---
 
