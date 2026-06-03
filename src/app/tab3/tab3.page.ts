@@ -60,7 +60,7 @@ export class Tab3Page {
 
         if (jogos) {
           jogos.forEach(jogo => {
-            if (jogo.thumb && jogo.thumb.includes('/media/')) {
+            if (jogo.thumb && jogo.thumb.includes('/media/') && !jogo.thumb.includes('resize')) {
               jogo.thumb = jogo.thumb.replace('/media/', '/media/resize/640/-/');
             }
             this.buscarPrecoSeNecessario(jogo);

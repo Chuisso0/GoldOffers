@@ -9,9 +9,6 @@ export class GameService {
 
   constructor(private http: HttpClient) { }
 
-  buscarPorTermo(termo: string): Observable<any> {
-    return this.http.get(`https://www.cheapshark.com/api/1.0/games?title=${termo}`);
-  }
 
   // BANNER: Destaques que JÁ LANÇARAM para PC nos últimos 3 meses
   getBannerDestaque(): Observable<any> {
